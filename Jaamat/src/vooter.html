@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>رجسٹریشن فارم</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" font-sans text-sm">
+    
+  <!-- Title -->
+  <h1 class="text-center text-lg my-4">رجسٹریشن فارم</h1>
+
+  <!-- Top Border -->
+  <div class="border-t-4 border-sky-700"></div>
+
+  <!-- Language Switch -->
+  <div class="bg-sky-50 py-2 text-center text-xs text-sky-700">
+    <span class="mx-2 cursor-pointer">English</span>
+    <span class="font-semibold underline cursor-pointer">اردو</span>
+  </div>
+
+  <!-- Form Container -->
+  <div class="bg-sky-50 px-6 py-4 max-w-4xl mx-auto">
+
+    <!-- Grid -->
+    <div class="grid grid-cols-12 gap-y-3 items-center">
+
+      <!-- Name -->
+      <label class="col-span-2 text-right">
+        نام <span class="text-red-500">*</span>
+      </label>
+      <input type="text" placeholder="محمد علی"
+        class="col-span-10 border border-gray-300 rounded px-3 py-1.5">
+
+      <!-- CNIC -->
+      <label class="col-span-2 text-right">
+        آئی ڈی کارڈ نمبر <span class="text-red-500">*</span>
+      </label>
+      <input type="text" placeholder="xxxxx-xxxxxxx-x"
+        class="col-span-10 border border-gray-300 rounded px-3 py-1.5">
+
+      <!-- Mobile -->
+      <label class="col-span-2 text-right">
+        موبائل نمبر <span class="text-red-500">*</span>
+      </label>
+      <input type="text" placeholder="923xxxxxxxxx"
+        class="col-span-10 border border-gray-300 rounded px-3 py-1.5">
+
+      <!-- Account Info -->
+      <label class="col-span-2 text-right">بینک اکاؤنٹ</label>
+      <input type="text"
+        class="col-span-10 border border-gray-300 rounded px-3 py-1.5">
+
+      <!-- Amount -->
+      <label class="col-span-2 text-right">رقم</label>
+      <input type="text" placeholder="مثلاً 3800"
+        class="col-span-10 border border-gray-300 rounded px-3 py-1.5">
+
+      <!-- Division -->
+      <label class="col-span-2 text-right">
+        ڈویژن <span class="text-red-500">*</span>
+      </label>
+      <select class="col-span-4 border border-gray-300 rounded px-3 py-1.5 bg-white">
+        <option>منتخب کریں</option>
+      </select>
+
+      <!-- District -->
+      <label class="col-span-2 text-right">
+        ضلع <span class="text-red-500">*</span>
+      </label>
+      <select class="col-span-4 border border-gray-300 rounded px-3 py-1.5 bg-white">
+        <option>منتخب کریں</option>
+      </select>
+
+      <!-- Dashed Info Box -->
+      <div class="col-span-12 mt-4 border border-dashed border-gray-400 p-4 bg-sky-50 text-xs leading-6">
+        <ul class="list-disc pr-5 space-y-1">
+          <li>تمام معلومات درست ہونی چاہئیں</li>
+          <li>غلط معلومات کی صورت میں درخواست مسترد ہو سکتی ہے</li>
+          <li>موبائل نمبر فعال ہونا چاہیے</li>
+        </ul>
+      </div>
+
+      <!-- Checkbox -->
+      <div class="col-span-12 flex items-center gap-2 mt-3">
+        <input type="checkbox" class="w-4 h-4">
+        <label class="text-xs">
+          میں تمام شرائط و ضوابط سے اتفاق کرتا ہوں
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Border -->
+  <div class="border-b-4 border-sky-700 my-4"></div>
+
+  <!-- Submit -->
+  <div class="text-center mb-6">
+    <button class="bg-green-600 hover:bg-green-700 text-white px-8 py-2 rounded">
+      ارسال کریں
+    </button>
+  </div>
+
+</body>
+</html>
